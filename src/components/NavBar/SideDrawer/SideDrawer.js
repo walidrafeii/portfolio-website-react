@@ -18,7 +18,10 @@ const SideDrawer = (props) => {
         className='close-btn social__media-icon'
         onClick={props.closeSideDrawer}
       />
-      <ToolbarItems className='side-drawer-items' />
+      <ToolbarItems
+        className='side-drawer-items'
+        closeSideDrawer={props.closeSideDrawer}
+      />
       <ToolbarExternalLinks className='side-drawer-links' />
     </nav>
   );

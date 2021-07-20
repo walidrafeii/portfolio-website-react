@@ -32,7 +32,10 @@ class Toolbar extends React.Component {
       <header className='toolbar__header'>
         <nav className={this.state.show ? 'active' : 'hidden'}>
           <img className='toolbar__logo' src={logo} alt='Logo' />
-          <ToolbarItems className='toolbar_navigation-items' />
+          <ToolbarItems
+            className='toolbar_navigation-items'
+            closeSideDrawer={this.props.closeSideDrawer}
+          />
           <ToolbarExternalLinks className='toolbar_external-links' />
           <AiOutlineBars
             className='hamburger_icon'
