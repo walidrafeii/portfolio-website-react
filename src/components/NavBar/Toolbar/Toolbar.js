@@ -1,7 +1,7 @@
 import React from 'react';
 import ToolbarExternalLinks from './ToolbarExternalLinks';
 import ToolbarItems from './ToolbarItems';
-import logo from '../../static/images/Memoji-Icon.png';
+import logo from '../../../static/images/Memoji-Icon.png';
 import './Toolbar.css';
 import { AiOutlineBars } from 'react-icons/ai';
 
